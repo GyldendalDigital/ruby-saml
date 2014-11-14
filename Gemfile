@@ -4,7 +4,7 @@ gemspec
 
 group :test do
   if RUBY_VERSION < "1.9"
-    gem "nokogiri",   "~> 1.5.0"
+    gem "nokogiri",   "~> 1.5.1"
     gem "ruby-debug", "~> 0.10.4"
   elsif RUBY_VERSION < "2.0"
     gem "debugger-linecache", "~> 1.2.0"
